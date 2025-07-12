@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Position</title>
+    <style>
+        *
+        {
+            margin: 0px;
+        }
+    img
+    {
+        width: 200px;
+        height: 300px;
+        position: relative;
+        /* bottom: 80px; */
+        
+    }
+    .parent
+    {
+        width: 50vw;
+        height: 40vh;
+        border: 2px solid black;
+        position: relative;
+       
+    }
+    .child
+    {
+        width: 100px;
+        height: 100px;
+        border: 2px solid red;
+        position: absolute;
+        /* left: 20px; */
+        /* top: 40px; */
+        bottom: 50px;
+        right: 130px;
+    }
+    </style>
+</head>
+<body>
+   <img src="https://media.istockphoto.com/id/1476190237/photo/summer-rain-raindrops-bad-weather-depression.jpg?s=612x612&w=is&k=20&c=rDTJ1zsXF1A9U0aWY_RGLNjyLWwI6OI_a5NiJmY9dfI=" alt="">
+   <div class="parent">
+    <div class="child"></div>
+   </div>
+</body>
+</html>

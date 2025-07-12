@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="">
+    <title>My Portfolio</title>
+    <style>
+        :root
+        {
+            --bg-color:#322653;
+            --btn-color:#FA1179;
+            --box-shadow:0px 0px 5px var(var(--btn-color))
+            
+        }
+        body
+        {
+            margin: 0px;
+            background-color: #322653;
+           
+           
+        }
+        .header_menu
+        {
+          box-shadow: 0px 15px 10px -15px var(--btn-color);
+        }
+        header
+        {
+            display: flex;
+            /* border: 2px solid #FA1179; */
+            margin: 0px auto;
+            width: 80%;
+            justify-content: space-around;    
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            font-family: "Ubuntu", sans-serif;
+        }
+        nav ul a
+        {
+            display: flex;
+            color:white ;
+            text-decoration: none;
+            transition: all 8s ;
+           
+        }
+        nav ul a:hover
+        {
+            color: var(--btn-color);
+        }
+        .container
+        {
+            width: 80%;
+            margin: 0px auto;
+           
+            display: flex;
+            height: 90vh;
+            align-items: center;
+              
+        }
+        .container .left
+        {
+            color: white;
+            width: 50%;
+        }
+        .container .left h1
+        {
+            margin: 0px;
+            font-size: 30px;
+            letter-spacing: 1px;
+            line-height: 40px;
+           
+        }
+        .container .left label
+        {
+            text-shadow: 1px 1px black;
+        }
+
+         .container .right
+        {
+           
+            width: 50%;  
+        }
+         
+        .container .left .subtitle
+        {
+            color: var(--btn-color);
+        }
+        
+        button
+        {
+            background-color: var(--btn-color);
+            border: none;
+            width: 100px;
+            height: 30px;
+            border-radius:15px;
+            font-weight: 600;
+            color: white;
+
+
+        }
+        button:hover
+        {
+            color: var(--bg-color);
+        }
+        .right img
+        {
+            height: 400px;
+            
+            margin-left: 100px;
+        }
+        .header_menu a
+        {
+            color: white;
+            text-decoration: none;
+            padding: 24px 10px;
+            font-weight: bold;
+           
+        }
+        .half
+        {
+            color: var(--btn-color);
+            font-weight: bold;
+        }
+       .home
+       {
+        height: 100vh;
+       }
+        .about
+        {
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="header_menu">
+        <header>
+        <a href="">CodeWithl <label for="" class="half">KG</label></a>
+        <nav>
+            <ul>
+                <li> <a href="#Home" id="home">Home</a></li>
+                <li> <a href="#About" id="about">About</a></li>
+                <li> <a href="#Courses" id="courses">Courses</a></li>
+                <li> <a href="#Blogs" id="blog">Blogs</a></li>
+                <li> <a href="#Gallery" id="gal">Gallery</a></li>
+                <li> <a href="#Contact" id="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+    <section>
+    <div class="container">
+        
+        <div class="left">
+            <h1>Hii</h1>
+            <h1>Welcome To My <label for="" class="subtitle">Portfolio</label></h1>
+            <h1>My name is <label for="" class="subtitle">Karuna Penduri</label></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis itaque, sit consequatur exercitationem porro minima? Sapiente delectus aut iste nihil.</p>
+            <button>Contact</button>
+        </div>
+       <div class="right">
+        <img src="./symbol.png" alt="">
+       </div>
+       
+   </div>
+   </section>
+</body>
+</html>

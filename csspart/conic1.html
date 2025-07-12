@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Conic Gradient</title>
+  <style>
+    .circle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: conic-gradient(red, yellow, green, blue, red);
+      margin: 50px auto;
+    }
+    .repeat
+    {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: repeating-conic-gradient(red 20%, blue 40%,violet 60%,deeppink 80%);
+    }
+    .pos
+    {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: conic-gradient(  at 30% 30%, red, green, yellow);
+    }
+    .from
+    {
+       width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: conic-gradient(from 45deg, red, green, yellow,orange, blue);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="circle"></div>
+  <div class="repeat"></div>
+  <div class="pos"></div>
+  <div class="from"></div>
+
+</body>
+</html>

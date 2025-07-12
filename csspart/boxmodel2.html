@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Units Example</title>
+  <style>
+     
+
+    header {
+      height: 20vh; /* 20% of the viewport height */
+      background-color: lightblue;
+      text-align: center;
+      padding-top: 5vh;
+    }
+
+    .container {
+      width: 80vw; /* 80% of the viewport width */
+      margin: 0 auto;
+      background-color: #f0f0f0;
+      padding: 2rem; /* 2 * root font-size (2 * 16px = 32px) */
+    }
+
+    .box {
+      width: 50%; /* 50% of the container */
+      padding: 1rem;
+      background-color: coral;
+      margin: 1rem ;
+     
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Responsive CSS Units</h1>
+  </header>
+
+  <div class="container">
+    <div class="box">50% Width Box (with rem-based padding and font-size)</div>
+    <div class="box">Another Box</div>
+  </div>
+</body>
+</html>

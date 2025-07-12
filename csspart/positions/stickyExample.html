@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sticky Header Example</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      position: sticky;
+      top: 0;
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      font-size: 20px;
+      z-index: 1000;
+    }
+
+    .content {
+      padding: 20px;
+      height: 2000px; /* Just to make the page scroll */
+      background: linear-gradient(white, lightgray);
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+     I am a Sticky Header
+  </div>
+
+  <div class="content">
+    <div class="section">Scroll down to see the sticky effect in action.</div>
+    <div class="section">Keep scrolling...</div>
+    <div class="section">The header will stick to the top!</div>
+    <div class="section">You can use this for navbars or section titles.</div>
+    <div class="section">End of content.</div>
+  </div>
+
+</body>
+</html>
